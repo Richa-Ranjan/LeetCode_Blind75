@@ -1,17 +1,21 @@
 import java.util.*;
-class twosum {
+
+public class twosum {
 
     public static int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] ans = new int[2];
+        int n = nums.length;
 
-        for (int i = 0; i < nums.length; i++) {
-            int diff = target - nums[i];
-            if (map.containsKey(diff)) {
-                return new int[]{map.get(diff), i};
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (nums[j] == target - nums[i]) {
+                    ans[0] = i;
+                    ans[1] = j;
+                    return ans;
+                }
             }
-            map.put(nums[i], i);
         }
-        return new int[]{};
+        return ans;
     }
 
     public static void main(String[] args) {
