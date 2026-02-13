@@ -1,6 +1,6 @@
-# DSA Practice – Striver Style (Java)
+# DSA Practice – (Java)
 
-This repository contains my solutions to **DSA problems practiced following Striver’s approach**, focusing on building strong problem-solving skills and core algorithmic thinking for technical interviews.
+This repository contains my solutions to **DSA problems practiced following differect approach**, focusing on building strong problem-solving skills and core algorithmic thinking for technical interviews.
 
 All solutions are written in **Java** and are added consistently as part of my interview preparation journey.
 
