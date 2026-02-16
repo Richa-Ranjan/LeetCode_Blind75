@@ -1,4 +1,4 @@
-# DSA Practice – (Java)
+🎯# DSA Practice – (Java)
 
 This repository contains my solutions to **DSA 75 problems practiced following different approach**, focusing on building strong problem-solving skills and core algorithmic thinking for technical interviews.
 
