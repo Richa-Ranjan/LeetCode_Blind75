@@ -1,5 +1,6 @@
-class Solution {
-    public int countSubstrings(String S) {
+public class countSubstrings {
+
+    public int CountSubstrings(String S) {
         int len = S.length();
         int ans = 0;
 
@@ -28,5 +29,15 @@ class Solution {
         }
 
         return ans;
+    }
+
+    public static void main(String[] args) {
+
+        String s = "babad";
+
+        countSubstrings obj = new countSubstrings();
+        int result = obj.CountSubstrings(s);
+
+        System.out.println("Total Palindromic Substrings: " + result);
     }
 }
