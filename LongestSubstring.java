@@ -9,7 +9,7 @@ public class LongestSubstring {
 
         int left = 0;
         int maxLength = 0;
-
+ 
         for (int right = 0; right < s.length(); right++) {
 
             char ch = s.charAt(right);
